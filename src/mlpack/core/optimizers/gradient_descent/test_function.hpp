@@ -28,7 +28,7 @@ class GDTestFunction
   //! Nothing to do for the constructor.
   GDTestFunction() { }
 
-  //! Get the starting point.
+  //! Get the starting point. - try this when dealing with armadillo
   arma::mat GetInitialPoint() const { return arma::mat("1; 3; 2"); }
 
   //! Evaluate a function.
