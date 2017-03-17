@@ -9,6 +9,9 @@
  * 3-clause BSD license along with mlpack.  If not, see
  * http://www.opensource.org/licenses/BSD-3-Clause for more information.
  */
+
+// The Frank Wolfe thing is going to be something similar except the params and a few other things
+
 #ifndef MLPACK_CORE_OPTIMIZERS_GRADIENT_DESCENT_GRADIENT_DESCENT_HPP
 #define MLPACK_CORE_OPTIMIZERS_GRADIENT_DESCENT_GRADIENT_DESCENT_HPP
 
@@ -101,7 +104,7 @@ class GradientDescent
   double& Tolerance() { return tolerance; }
 
  private:
-  //! The instantiated function.
+  //! The instantiated function. - find where is FunctionType defined
   FunctionType& function;
 
   //! The step size for each example.
