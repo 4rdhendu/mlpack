@@ -49,7 +49,7 @@ template<typename LagrangianFunction>
 class AugLagrangian
 {
  public:
-  //! Shorthand for the type of the L-BFGS optimizer we'll be using.
+  //! Shorthand for the type of the L-BFGS optimizer we'll be using. - MAYBE USED BY ME AS WELL
   typedef L_BFGS<AugLagrangianFunction<LagrangianFunction> >
       L_BFGSType;
 
