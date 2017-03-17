@@ -32,6 +32,8 @@ AugLagrangianFunction<LagrangianFunction>::AugLagrangianFunction(
   lambda.zeros();
 }
 
+// CONCENTRATE ON THE AugLagrangianFunction<LagrangianFunction>::AugLagrangianFunction     
+    
 // Initialize the AugLagrangianFunction.
 template<typename LagrangianFunction>
 AugLagrangianFunction<LagrangianFunction>::AugLagrangianFunction(
