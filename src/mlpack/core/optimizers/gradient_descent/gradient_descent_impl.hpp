@@ -15,11 +15,14 @@
 // In case it hasn't been included yet.
 #include "gradient_descent.hpp"
 
+// this file was included in gradient_descent.hpp
+
 namespace mlpack {
 namespace optimization {
 
 template<typename FunctionType>
 GradientDescent<FunctionType>::GradientDescent(
+    // the FunctionType thing must implement Evaluate() and Gradient() fns
     FunctionType& function,
     const double stepSize,
     const size_t maxIterations,
