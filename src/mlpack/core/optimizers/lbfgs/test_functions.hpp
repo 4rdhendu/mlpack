@@ -38,6 +38,9 @@ namespace mlpack {
 namespace optimization {
 namespace test {
 
+ 
+// I WILL HV TO DEFINE TEST FNS LIKE THIS 
+ 
 /**
  * The Rosenbrock function, defined by
  *  f(x) = f1(x) + f2(x)
