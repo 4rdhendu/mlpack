@@ -14,6 +14,8 @@
 
 #include <mlpack/prereqs.hpp>
 
+// this too maybe helpful for the gist thing
+
 namespace mlpack {
 namespace optimization {
 
